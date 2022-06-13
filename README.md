@@ -24,7 +24,7 @@ Hints (Useful Resources):
 ### TO-DO List APP
 1. In this step, we will be adding the feature to display the date and time an item was added along with its task to the user. Also, we will be implementing a new component to display each item in the Todo list.
       + Navigate to `src/component/AddTodo.js`
-        1. In the Constructor method, initialize a new property set to nothing to represent the current date 
+        1. In the Constructor method, initialize a new key set to nothing to represent the current date 
         2. In the handleChange function, place the newly created date property and update the value using `Date().toLocaleString('en-US')` method
         3. In the handleSubmit function, make sure to set the newly created date property back to null after passing the user values to the addTodo function
       + Navigate to `src/component/todos.js`
