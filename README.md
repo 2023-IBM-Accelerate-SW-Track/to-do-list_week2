@@ -28,7 +28,7 @@ Hints (Useful Resources):
         2. In the handleChange function, place the new date property and update the value using `Date().toLocaleString('en-US')` method
         3. In the handleSubmit function, make sure to set the new date property back to null after passing the user values to the addTodo function
       + Navigate to `src/component/todos.js`
-        1. import ListItemButton and ListItemText components from the material UI library
+        1. If not present, import ListItemButton and ListItemText components from the material UI library
         2. Within the Card component, substitute the CardContent component with a ListItemButton Component
             + **Before:**
                ```
@@ -47,7 +47,7 @@ Hints (Useful Resources):
 
 2. In this step, we will be adding the checkbox feature to correspond to a task being completed
       + Navigate to `src/component/todos.js`
-        1. import Checkbox from the material UI library
+        1. If not present, import Checkbox from the material UI library
         2. Within the ListItemButton component, Add a Checkbox component before the ListItemText component with a style of `paddingLeft:0` and set color to `primary`
 3. In this step, we will be adding the delete feature which will remove an item from the Todo list once it is complete (user clicks on checkbox button)
       + Navigate to `src/pages/Home.js`
