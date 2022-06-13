@@ -25,8 +25,8 @@ Hints (Useful Resources):
 1. In this step, we will be adding the feature to display the date and time an item was added along with its task to the user. Also, we will be implementing a new component to display each item in the Todo list.
       + Navigate to `src/component/AddTodo.js`
         1. In the Constructor method, initialize a new key w/ the name `date` set to nothing to represent the current date 
-        2. In the handleChange function, place the newly created date property and update the value using `Date().toLocaleString('en-US')` method
-        3. In the handleSubmit function, make sure to set the newly created date property back to null after passing the user values to the addTodo function
+        2. In the handleChange function, place the newly created date key and update the value using `Date().toLocaleString('en-US')` method
+        3. In the handleSubmit function, make sure to set the newly created date key back to null after passing the user values to the addTodo function
       + Navigate to `src/component/todos.js`
         1. If not present, import ListItemButton and ListItemText components from the material UI library
         2. Within the Card component, substitute the CardContent component with a ListItemButton Component
