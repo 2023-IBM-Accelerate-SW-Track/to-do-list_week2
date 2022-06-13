@@ -83,9 +83,11 @@ Hints (Useful Resources):
       + **Note:** Look into utilizing the [**find**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) function to check if current item already exists w/in the Todo list. 
 
 ## Testing
-When testing web components, developers often use ids to uniquely define elements on a page. The React Testing Library provides a query which can identify items with the attribute data-testid to do just that (reference [here](https://testing-library.com/docs/queries/bytestid/)). We have implemented simple tests in `App.test.js` that will look for ids in your code. Do not push changes to the tests in this file. To get familiar with the idea of testing ids, implement the attributes below:
-+ `data-testid="new-item-input"` on the Input component which takes user input for new items.
-+ `data-testid="new-item-button"` on the Button component which submits new items to the to do list.
+Upon completion of Week 2 Lab Project, all the necessary components and functions should be implemented in order to successfully complete the test cases mentioned below:
++ Add Button Componenet adds task to list (on click)
++ Add Button Componenet doesn't add blank task to list (on click)
++ Add Button Componenet doesn't add duplicate task to list (on click)
++ Checkbox Button component removes task from list (on click)
 
 
 Note: Material UI components (and other libraries) render as HTML components under the hood, so using Material UI's TextField would still render in the DOM as an Input element and pass the tests for this lab.
