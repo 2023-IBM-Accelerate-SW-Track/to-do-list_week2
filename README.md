@@ -42,7 +42,7 @@ Hints (Useful Resources):
                     <ListItemText primary={todo.content}/>
                   </ListItemButton>
                 ```
-        3. Within the ListItemText component, add the secondary property next to the primary property to display the date for each task
+        3. Within the ListItemText component, add the `secondary` property next to the `primary` property to display the date for each task
         4. (optional) Add `style={{marginTop:10}}` to the Card component to give space between each item in the Todo list and avoid item cards from overlapping each other
 
 2. In this step, we will be adding the checkbox feature to correspond to a task being completed
