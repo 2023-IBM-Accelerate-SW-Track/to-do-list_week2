@@ -64,7 +64,7 @@ Hints (Useful Resources):
         };
         ```
         2. Within the Todos component in the render() function, pass in an additional property\
-           `deleteTodo={make your change}` to correspond to the deleteTodo function. **Hint:** replace make your change with deleteTodo() function
+           `deleteTodo={make your change}` to correspond to the deleteTodo function. **Hint:** replace `make your change` with deleteTodo() function
       + Navigate to `src/component/todos.js`
         1. Add `deleteTodo` as a new property to the Todos component to correspond to the new deleteTodo() function
         2. Within the Checkbox component, add an onClick event handler to call the deleteTodo() function and pass the item's `id` as a parameter
