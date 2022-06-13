@@ -48,7 +48,7 @@ Hints (Useful Resources):
 2. In this step, we will be adding the checkbox feature to correspond to a task being completed
       + Navigate to `src/component/todos.js`
         1. If not present, import Checkbox from the material UI library
-        2. Within the ListItemButton component, Add a Checkbox component before the ListItemText component with a style of `paddingLeft:0` and set `color` property to `primary`
+        2. Within the ListItemButton component, Add a Checkbox component before the ListItemText component with a `style` property set to `paddingLeft:0` and a `color` property set to `primary`
 3. In this step, we will be adding the delete feature which will remove an item from the Todo list once it is complete (user clicks on checkbox button)
       + Navigate to `src/pages/Home.js`
         1. Implement the code snippet below for the deleteTodo() function before or after the addTodo() function\
