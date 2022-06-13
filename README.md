@@ -100,4 +100,4 @@ Upon completion of Week 2 Lab Project, all the necessary components and function
 Note: Material UI components (and other libraries) render as HTML components under the hood, so using Material UI's TextField would still render in the DOM as an Input element and pass the tests for this lab.
 
 ## Pre-session Material
-Here is a [**link**](https://ibm.ent.box.com/folder/163593416418) to the pre-session material that was provided to you earlier.
+Here is a [**link**](https://ibm.ent.box.com/file/969587514328?s=gxyhqgb627h2m684jaxj5cjbh2ak3ol6) to the pre-session material that was provided to you earlier.
