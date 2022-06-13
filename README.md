@@ -81,6 +81,13 @@ Hints (Useful Resources):
             the item to the Todo list }
         ```
       + **Note:** Look into utilizing the [**find**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) function to check if current item already exists w/in the Todo list. 
+      ```
+      array = [1,2,3,4,5,6]
+      const exists = array.find(t => t === '4')
+      console.log(exists)
+      
+      Output: true
+      ```
 
 ## Testing
 Upon completion of Week 2 Lab Project, all the necessary components and functions should be implemented in order to successfully complete the test cases mentioned below:
