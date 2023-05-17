@@ -89,6 +89,13 @@ Hints (Useful Resources):
       Output: true
       ```
 
+### TO-DO List APP Stretch Assignment
+
+Tasks can have pre-conditions and acceptence criterias. For this stretch assignment create two new text fields for them and when the user clicks submit these fields should be displayed in the card as well.
+
+Hint: Add two new variables to the state and take a look at [this tutorial](https://www.tutorialspoint.com/how-to-use-the-handlechange-function-in-react-component#:~:text=In%20the%20handleChange()%20function%2C%20we%20can%20get%20the%20name,()%20function%20handles%20all%20inputs.)
+
+
 ## Testing
 Upon completion of Week 2 Lab Project, all the necessary components and functions should be implemented in order to successfully complete the test cases mentioned below:
 + Add Button Componenet adds task to list (on click)
