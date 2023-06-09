@@ -1,14 +1,16 @@
 # Project Week 2: To-do list application (Cont.)
+
 ## Introduction
-As of now, you have completed Project Week 1 and should now have a React Application that can navigate to an **About me** page and a **Home** page currently hosting the Todo List Application that we will continue to build upon for Project Week 2. For Project Week 2, Look to implement more Material UI components to the front-end of your to-do list web application to give it a sleek and modern appearance. Aside from styling, A typical user wants to be able to use a to-do list to organize tasks. Keeping user stories in mind when designing applications helps determine important features. We encourage you to take a unique approach to this lab as there is no one right answer. 
-- [Material Design](https://material.io/design/introduction) is a design system that can guide you on what UI decisions to make if you would like to explore best practices, but functionality is the key focus of the lab.
-- No back-end is required for this lab, all data (tasks) should live in the front-end.
+As of now, you have completed Project Week 1 and should now have a React Application that can navigate to an **About me** page and a **Home** page currently hosting the To-do List Application that we will continue to build upon for Project Week 2. For Project Week 2, Look to implement more Material UI components to the front-end of your to-do list web application to give it a sleek and modern appearance. Aside from styling, A typical user wants to be able to use a to-do list to organize tasks. Keeping user stories in mind when designing applications helps determine important features. We encourage you to take a unique approach to this lab, as there is no one right answer. 
+
+- [**Material Design**](https://material.io/design/introduction) is a design system that can guide you on what UI decisions to make if you would like to explore best practices, but functionality is the key focus of the lab.
+- No back-end is required for this lab. All data (tasks) should live in the front-end.
 
 ## Requirements
 Feature requirements (Week 2 task is complete when you):
 + Provide the date and time of item addition
 + Allow users to mark items as complete
-+ Remove completed items from list
++ Remove completed items from the list
 + Validate there are no duplicated items
 
 Implementation requirements:
@@ -17,11 +19,11 @@ Implementation requirements:
 + Implement at least one **functional component**
 
 Hints (Useful Resources):
-+ Click [**here**](https://reactjs.org/docs/lists-and-keys.html) for an example on utilizing the list.map function
++ Click [**here**](https://react.dev/learn/rendering-lists) for an example on utilizing the list.map function
 
 ## Instructions
 
-### TO-DO List APP
+### To-do list application
 1. In this step, we will be adding the feature to display the date and time an item was added along with its task to the user. Also, we will be implementing a new component to display each item in the Todo list.
       + Navigate to `src/component/AddTodo.js`
         1. In the Constructor method, add a new key w/ the name `date` set to an empty string to represent the current date 
@@ -89,22 +91,21 @@ Hints (Useful Resources):
       Output: true
       ```
 
-### TO-DO List APP Stretch Assignment
+### To-do list application stretch assignment (optional challenge)
 
-Tasks can have pre-conditions and acceptence criterias. For this stretch assignment create two new text fields for them and when the user clicks submit these fields should be displayed in the card as well.
+Tasks can have pre-conditions and acceptance criteria. For this stretch assignment, create two new text fields for them, and when the user clicks submit, these fields should be displayed in the card as well.
 
-Hint: Add two new variables to the state and take a look at [this tutorial](https://www.tutorialspoint.com/how-to-use-the-handlechange-function-in-react-component#:~:text=In%20the%20handleChange()%20function%2C%20we%20can%20get%20the%20name,()%20function%20handles%20all%20inputs.)
+Hint: Add two new variables to the state and take a look at [**this tutorial**](https://www.tutorialspoint.com/how-to-use-the-handlechange-function-in-react-component#:~:text=In%20the%20handleChange()%20function%2C%20we%20can%20get%20the%20name,()%20function%20handles%20all%20inputs.)
 
 
 ## Testing
-Upon completion of Week 2 Lab Project, all the necessary components and functions should be implemented in order to successfully complete the test cases mentioned below:
-+ Add Button Componenet adds task to list (on click)
-+ Add Button Componenet doesn't add blank task to list (on click)
-+ Add Button Componenet doesn't add duplicate task to list (on click)
-+ Checkbox Button component removes task from list (on click)
+Upon completion of the Week 2 Lab Project, all the necessary components and functions should be implemented in order to successfully complete the test cases mentioned below:
++ Add Button Component adds the task to the list (on click)
++ Add Button Component doesn't add blank tasks to the list (on click)
++ Add Button Component doesn't add duplicate tasks to the list (on click)
++ Checkbox Button component removes the task from the list (on click)
 
-
-Note: Material UI components (and other libraries) render as HTML components under the hood, so using Material UI's TextField would still render in the DOM as an Input element and pass the tests for this lab.
+**Note:** Material UI components (and other libraries) render as HTML components under the hood, so using Material UI's TextField would still render in the DOM as an Input element and pass the tests for this lab.
 
 ## Pre-session Material
-Here is a [**link**](https://ibm.ent.box.com/file/969593458868?s=cj7tfykcxop5kfaz5b18dszfcfz0ac1e) to the pre-session material that was provided to you earlier.
+[**Here**](https://ibm.box.com/s/45vzi5ews0w3smsbhg4j7egl12kbheyl) are the pre-session materials that were provided to you earlier.
